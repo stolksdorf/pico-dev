@@ -1,0 +1,16 @@
+{
+  "name": "pico-dev",
+  "version": "1.0.0",
+  "description": "Simple hot-reloading development server",
+  "main": "picodev.js",
+  "bin": "cli.js",
+  "scripts": {
+    "dev": "nodemon ./tests/index.js"
+  },
+  "keywords": ["dev", "development", "server", "livereload"],
+  "author": "stolksdorf <scott.tolksdorf@gmail.com> (https://stolksdorf.dev/)",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.5.0"
+  }
+}
